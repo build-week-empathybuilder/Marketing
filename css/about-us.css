@@ -27,6 +27,23 @@ html {
     font-size: 2rem;
 }
 
+.navbar-brand {
+    font-size: 2rem;
+    margin-left: 30rem;
+}
+
+.nav-item2 {
+    margin-right: 10rem;
+    margin-left: 1rem;
+}
+
+
+
+.navbar {
+    font-size: 1.4rem;
+    opacity: .8;
+    border-bottom: 2px solid #9f7e69;
+}
 
 
 
@@ -113,7 +130,14 @@ html {
 
 
 /* Media queries */
-@media (max-width: 500px) {
+
+@media (max-width: 976px) {
+    .navbar-brand {
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
     .bio {
         flex-direction: column;
         flex: 0 0 100%;
@@ -132,5 +156,10 @@ html {
 
     .bg-video {
         display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 0;
+
     }
 }
