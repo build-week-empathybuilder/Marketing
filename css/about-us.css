@@ -56,11 +56,11 @@ html {
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .6);
     background-color: rgba(white, .90%);
     border-top-right-radius: 2rem;
-    border-top: 1rem solid #d2bba0;
-    border-right: 1rem solid #d2bba0;
+    border-top: .8rem solid #d2bba0;
+    border-right: .8rem solid #d2bba0;
     padding: 3rem;
     transform: skewX(-12deg);
-    margin-top: 20rem;
+    margin: 20rem auto;
 }
 
 .bio__shape,
@@ -132,7 +132,7 @@ html {
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: .30;
+    opacity: .60;
 
 }
 
