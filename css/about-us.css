@@ -33,16 +33,48 @@ html {
 }
 
 .bio {
+    display: flex;
+    align-items: center;
     width: 75%;
     margin: 0 auto 2rem;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
     background-color: #fff;
     border-radius: 3px;
     padding: 6rem;
+    transform: skewX(-12deg);
 
 }
 
-.bio {
-    display: flex;
-    align-items: center
+.bio__shape,
+.bio__text {
+    transform: skewX(12deg);
+}
+
+
+.bio__shape img {
+    border-radius: 50%;
+    margin-right: 2rem;
+
+}
+
+.bio__text {}
+
+
+/* Media queries */
+@media (max-width: 500px) {
+    .bio {
+        flex-direction: column;
+        flex: 0 0 100%;
+        transform: skewX(0deg);
+    }
+
+    .bio__shape,
+    .bio__shape img,
+    .bio__text {
+        transform: skewX(0deg);
+    }
+
+    .bio__shape img {
+        margin-bottom: 2rem;
+    }
 }

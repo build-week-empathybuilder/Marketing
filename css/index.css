@@ -137,3 +137,73 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.feature__heading {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+.features > div {
+  background-color: white;
+  box-shadow: 5px 5px 5px #888;
+  border-radius: 5px;
+  padding: 3rem;
+  margin: 2rem;
+  width: 45%;
+}
+.app_feature:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s;
+}
+.cta {
+  padding: 3.5rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+.cta__header {
+  font-size: 2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+.btn {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  background-image: linear-gradient(to right, #7ccec5, #e56a50);
+  position: relative;
+  overflow: hidden;
+}
+.btn:a {
+  color: #fff;
+}
+.btn__visible {
+  display: inline-block;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 4.5rem;
+  transition: all 0.5s;
+}
+.btn__invisible {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  padding: 1.3rem;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: -100%;
+  transition: all 0.5s;
+}
+.btn:hover .btn__visible {
+  transform: translateY(100%);
+}
+.btn:hover .btn__invisible {
+  top: 0;
+}
