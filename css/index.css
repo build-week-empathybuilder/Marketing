@@ -149,6 +149,13 @@ body {
 .display-4 {
   margin-bottom: 2rem;
 }
+@media (max-width: 665px) {
+  .display-4 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
+  }
+}
 .jumbotron {
   overflow: hidden;
   margin: 0;
@@ -206,11 +213,16 @@ body {
   line-height: 1.2;
   border-bottom: 5px inset #7ccec5;
 }
+@media (max-width: 765px) {
+  .mission {
+    word-spacing: 1px;
+  }
+}
 .mission_link {
   text-decoration: none;
 }
 .mission_link:hover {
-  color: #d2bba0;
+  color: #ef9797;
   text-decoration: none;
 }
 .cta {
@@ -231,7 +243,8 @@ body {
   text-transform: uppercase;
   border-radius: 100px;
   border: none;
-  background-image: linear-gradient(to right, #9f7e69, #d2bba0);
+  background-image: linear-gradient(to right, #9f7e69, #7ccec5);
+  box-shadow: 5px 5px 5px #888;
   position: relative;
   overflow: hidden;
 }
