@@ -1,0 +1,62 @@
+//CTA Section
+
+.cta {
+    padding: 3.5rem;
+    text-align: center;
+
+    &__use-app {
+        font-size: 2rem;
+        font-weight: lighter;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+    }
+}
+
+// Button
+.btn {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(to right, @PrimaryColor, @secondaryColor);
+    position: relative;
+    overflow: hidden;
+
+    &:a {
+        color: azure;
+    }
+
+    &__visible {
+        display: inline-block;
+        color: azure;
+        height: 100%;
+        width: 100%;
+        padding: 2rem 7.5rem;
+        transition: all 0.5s;
+    }
+
+    &__invisible {
+        display: inline-block;
+        color: azure;
+        position: absolute;
+        padding: 2rem 0;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: -100%;
+        transition: all 0.5s;
+    }
+
+    &:hover {
+        animation-iteration-count: infinite;
+    }
+
+    &:hover &__visible {
+        transform: translateY(100%);
+    }
+
+    &:hover &__invisible {
+        top: 0;
+    }
+}
