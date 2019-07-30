@@ -142,9 +142,25 @@ body {
   font-size: 3rem;
   margin: 2rem;
 }
+.jumbotron {
+  overflow: hidden;
+  margin: 0;
+}
+.jumbo-image-div {
+  border: 1rem solid #f2efc7;
+  border-radius: 10px;
+}
+.jumbo-image {
+  max-width: 100%;
+  height: auto;
+}
+.header img {
+  margin-right: auto;
+}
 .features {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .features > div {
   background-color: white;
@@ -157,6 +173,18 @@ body {
 .app_feature:hover {
   transform: scale(1.1, 1.1);
   transition: 0.3s;
+}
+.mission {
+  background-color: #f2efc7;
+  padding: 2.5rem;
+  font-size: 1.6rem;
+  border-bottom: 5px inset #d2bba0;
+}
+.mission:hover a {
+  text-decoration: none;
+}
+.navbar {
+  color: white;
 }
 .cta {
   padding: 3.5rem 0;
@@ -175,7 +203,7 @@ body {
   text-transform: uppercase;
   border-radius: 100px;
   border: none;
-  background-image: linear-gradient(to right, #7ccec5, #e56a50);
+  background-image: linear-gradient(to right, #9f7e69, #d2bba0);
   position: relative;
   overflow: hidden;
 }

@@ -9,9 +9,10 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 .center-text {
@@ -20,17 +21,14 @@ html {
     background-image: linear-gradient(to right, #d2bba0, #f2efce);
 }
 
-.secondary-heading {
-    margin: 2rem;
-}
+.secondary-heading {}
 
 .tertiary-heading {
     font-size: 2rem;
 }
 
-.bio__caption {
-    font-size: 1.6rem;
-}
+
+
 
 .bio {
     display: flex;
@@ -38,10 +36,12 @@ html {
     width: 75%;
     margin: 0 auto 2rem;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
-    background-color: #fff;
+    background-color: rgba(white, .90%);
     border-radius: 3px;
-    padding: 6rem;
+    padding: 3rem;
     transform: skewX(-12deg);
+    margin-top: 2rem;
+
 
 }
 
@@ -51,13 +51,65 @@ html {
 }
 
 
-.bio__shape img {
+.bio__img {
     border-radius: 50%;
     margin-right: 2rem;
+    position: relative;
+}
+
+/* hovering effect for caption */
+.bio__caption {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, 20%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .4s;
+    backface-visibility: hidden;
+}
+
+.bio:hover .bio__caption {
+    /* this allows me to hover over a child*/
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+
+/* hovering effect for image inside caption */
+.bio:hover .bio__img {
+    filter: blur(1px) brightness(80%);
 
 }
 
+/* Background video CSS */
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .15;
+
+}
+
+.bg__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
 .bio__text {}
+
+
 
 
 /* Media queries */
@@ -76,5 +128,9 @@ html {
 
     .bio__shape img {
         margin-bottom: 2rem;
+    }
+
+    .bg-video {
+        display: none;
     }
 }
