@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 3.8rem;
+    background-image: linear-gradient(to right, #d2bba0, #f2efce);
+
+}
+
+.secondary-heading {
+    margin: 0rem;
+    padding: 3rem;
+}
+
+.tertiary-heading {
+    font-size: 2rem;
+}
+
+.bio__caption {
+    font-size: 1.6rem;
+}
+
+.bio {
+    width: 75%;
+    margin: 0 auto 2rem;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 6rem;
+
+}
+
+.bio {
+    display: flex;
+    align-items: center
+}
