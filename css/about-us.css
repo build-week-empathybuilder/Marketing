@@ -27,6 +27,7 @@ html {
     font-size: 2rem;
 }
 
+
 .navbar-brand {
     font-size: 2rem;
     margin-left: 30rem;
@@ -50,16 +51,16 @@ html {
 .bio {
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 65%;
     margin: 0 auto 2rem;
-    box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, .6);
     background-color: rgba(white, .90%);
-    border-radius: 3px;
+    border-top-right-radius: 2rem;
+    border-top: 1rem solid #d2bba0;
+    border-right: 1rem solid #d2bba0;
     padding: 3rem;
     transform: skewX(-12deg);
-    margin-top: 2rem;
-
-
+    margin-top: 20rem;
 }
 
 .bio__shape,
@@ -72,6 +73,26 @@ html {
     border-radius: 50%;
     margin-right: 2rem;
     position: relative;
+}
+
+.navbar-brand {
+    font-size: 1.9rem;
+    margin-left: 20rem;
+}
+
+.nav-item2 {
+    margin-right: 23rem;
+    margin-left: 1rem;
+}
+
+.navbar {
+    font-size: 1.4rem;
+    opacity: .8;
+    border-bottom: 5px solid #9f7e69;
+}
+
+.bio__text {
+    font-size: 1.4rem;
 }
 
 /* hovering effect for caption */
@@ -111,7 +132,7 @@ html {
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: .15;
+    opacity: .30;
 
 }
 

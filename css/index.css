@@ -142,6 +142,10 @@ body {
   font-size: 3rem;
   margin: 2rem;
 }
+.navbar {
+  opacity: 0.8;
+  border-bottom: 5px solid #ef9797;
+}
 .display-4 {
   margin-bottom: 2rem;
 }
@@ -188,6 +192,7 @@ body {
 .app_feature {
   font-size: 1.4rem;
   line-height: 1.3;
+  border-top: 2rem solid #7ccec5;
 }
 .app_feature:hover {
   transform: scale(1.1, 1.1);
@@ -199,7 +204,7 @@ body {
   padding: 2.5rem;
   font-size: 1.6rem;
   line-height: 1.2;
-  border-bottom: 5px inset #d2bba0;
+  border-bottom: 5px inset #7ccec5;
 }
 .mission_link {
   text-decoration: none;
