@@ -246,6 +246,11 @@ body {
   box-shadow: 5px 5px 5px #888;
   border-top: 2rem solid #ef9797;
 }
+@media (max-width: 1200px) {
+  .mission .mission-para {
+    font-size: 1.3rem;
+  }
+}
 .cta {
   padding: 3.5rem 0;
   text-align: center;
