@@ -184,6 +184,12 @@ body {
   margin: 2rem;
   width: 44%;
 }
+@media (max-width: 1200px) {
+  .features > div {
+    width: 40%;
+    flex-wrap: nowrap;
+  }
+}
 @media (max-width: 960px) {
   .features > div {
     width: 40%;
