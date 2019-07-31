@@ -210,7 +210,7 @@ body {
 }
 .app_feature:hover {
   transform: scale(1.1, 1.1);
-  transition: 0.3s;
+  transition: 0.5s;
   backface-visibility: hidden;
 }
 .mission {
