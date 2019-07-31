@@ -131,6 +131,7 @@ table {
 }
 body {
   background-color: beige;
+  font-family: 'Lora', serif;
 }
 .container {
   max-width: 1200px;
