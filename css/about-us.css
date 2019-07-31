@@ -119,7 +119,7 @@ html {
 
 /* hovering effect for image inside caption */
 .bio:hover .bio__img {
-    filter: blur(1px) brightness(80%);
+    filter: blur(1px) brightness(60%);
 
 }
 
@@ -140,6 +140,17 @@ html {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* github link */
+.github {
+    color: black;
+    font-size: 1.8rem
+}
+
+.github:hover {
+    color: crimson;
+    text-decoration: none;
 }
 
 

@@ -53,9 +53,10 @@
 
 .mission {
     // border: 2px solid black;
+    display: flex;
     background-color: #f2efc7;
     padding: 2.5rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     border-bottom: 5px inset #7ccec5;
 
@@ -64,13 +65,29 @@
         word-spacing: 1px;
     }
 
-}
+    .mission_link {
+        text-decoration: none;
+    }
 
-.mission_link {
-    text-decoration: none;
-}
+    .mission_link:hover {
+        color: #ef9797;
+        // text-decoration: none;
+    }
 
-.mission_link:hover {
-    color: #ef9797;
-    text-decoration: none;
+    .mission_lambda:hover {
+        color: crimson;
+        text-decoration: none;
+    }
+
+    .mission-para {
+        flex: 1 1 50%;
+        line-height: 1.4;
+        background-color: white;
+        margin: 0 2rem;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px #888;
+        border-top: 2rem solid #ef9797;
+
+    }
 }
