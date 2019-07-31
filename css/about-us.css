@@ -167,12 +167,17 @@ html {
     .navbar-brand {
         margin-left: 3rem;
     }
+
+    .nav-item2 {
+        margin-right: 25rem;
+        margin-left: 0rem;
+    }
 }
 
 @media (max-width: 576px) {
     .bio {
         flex-direction: column;
-        flex: 0 0 100%;
+        flex: 0 0 80%;
         transform: skewX(0deg);
     }
 
@@ -193,5 +198,10 @@ html {
     .navbar-brand {
         margin-left: 0;
 
+    }
+
+    .nav-item2 {
+        margin-right: 25rem;
+        margin-left: 0rem;
     }
 }
