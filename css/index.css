@@ -226,6 +226,11 @@ body {
     word-spacing: 1px;
   }
 }
+@media (max-width: 576px) {
+  .mission {
+    flex-wrap: wrap;
+  }
+}
 .mission .mission_link {
   text-decoration: none;
 }
@@ -249,6 +254,11 @@ body {
 @media (max-width: 1200px) {
   .mission .mission-para {
     font-size: 1.3rem;
+  }
+}
+@media (max-width: 580px) {
+  .mission .mission-para {
+    margin: 1rem;
   }
 }
 .cta {
