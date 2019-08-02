@@ -178,7 +178,11 @@ body {
     }
 }
 
-
+@media(max-width: 580px) {
+    .navbar-brand {
+        margin-left: 4rem;
+    }
+}
 
 
 @media (max-width: 576px) {
@@ -210,7 +214,7 @@ body {
 
 
     .nav-item2 {
-        margin-right: 0;
+        margin-right: 25rem;
         margin-left: 0rem;
     }
 }
