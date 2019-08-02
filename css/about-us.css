@@ -178,6 +178,9 @@ body {
     }
 }
 
+
+
+
 @media (max-width: 576px) {
     .bio {
         flex-direction: column;
@@ -204,8 +207,10 @@ body {
 
     }
 
+
+
     .nav-item2 {
-        margin-right: 25rem;
+        margin-right: 0;
         margin-left: 0rem;
     }
 }
